@@ -1,0 +1,15 @@
+node_modules/
+dist/
+cdktf.out/
+*.js
+*.d.ts
+.env
+terraform.*.tfstate*
+.terraform/
+.env
+cdktf.out/
+node_modules/
+.terraform/
+dist/
+*.tfstate*
+.gen/

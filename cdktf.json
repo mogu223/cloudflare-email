@@ -1,0 +1,13 @@
+{
+  "language": "typescript",
+  "app": "npx ts-node src/main.ts",
+  "projectId": "cloudflare-email",
+  "sendCrashReports": "false",
+  "terraformProviders": [
+    "cloudflare/cloudflare@~> 4.0"
+  ],
+  "context": {
+    "excludeStackIdFromLogicalIds": "true",
+    "allowSepCharsInLogicalIds": "true"
+  }
+}
